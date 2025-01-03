@@ -1,3 +1,3 @@
-cmake_host_system_information(VALUE 3.15)
-project(cmake_study)
+cmake_minimum_required(VERSION 3.15)
+project(cmakecudalearn)
 add_subdirectory(lesson1-1)
