@@ -1,10 +1,9 @@
-#pragma once
 #include <stdio.h>
-int add(int a, int b);
+#include "add.h"
 
 int main()
 {
-    int c = add(1, 2);
+    int c = add(11, 12);
     printf("c=%d\n", c);
     return 0;
 }
